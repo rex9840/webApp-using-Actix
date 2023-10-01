@@ -7,5 +7,8 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.4.0"
+chrono = { version = "0.4.31", features = ["serde"] }
 clap = "4.4.4"
+serde = { version = "1.0.188", features = ["derive"] }
 sqlx = "0.7.1"
+uuid = { version = "1.4.1", features = ["v4"] }
